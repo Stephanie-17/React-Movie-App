@@ -8,7 +8,7 @@ interface MovieProps {
 
 const Movie = ({title, overview, image, rating}: MovieProps) => {
 	return (
-		<div className="group w-74 h-139 relative overflow-hidden ">
+		<div className="group w-72 h-139 relative overflow-hidden ">
 			<div>
 				<img className="h-120" src={image} alt="" />
 			</div>

@@ -24,7 +24,7 @@ const Search = ({getApi}: SearchProps) => {
 		<div>
 			<form action="" onSubmit={(e)=>handleSubmit(e)}>
            <input
-				className="border-[#22254b] border-2 rounded-4xl py-2 px-4 w-64 placeholder-indigo-500 outline-none text-white"
+				className="border-[#22254b] border-2 rounded-4xl py-2 px-4 w-[20vw] md:w-[20vw] placeholder-indigo-500 outline-none text-white"
 				type="search"
 				name=""
 				id="search"

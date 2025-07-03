@@ -16,7 +16,7 @@ const MovieList = ({movies}: MovieListProps) => {
 
 	
 	return (
-		<div className="flex flex-wrap gap-10 px-24 py-6 bg-[#22254b] justify-center items-center pt-29 ">
+		<div className="flex flex-wrap gap-10 px-4 lg:px-24 py-6 bg-[#22254b] justify-center items-center pt-29 ">
 			{movies.map(movie=>{
 				return <Movie 
 							key={movie.id} 
